@@ -47,7 +47,7 @@ export default function ReviewModal({ booking, open, onClose, onSubmitReview }: 
         <DialogHeader>
           <DialogTitle>Rate Your Experience</DialogTitle>
           <DialogDescription>
-            How was your {booking.service} session?
+            How was your {booking.service} sessions?
           </DialogDescription>
         </DialogHeader>
 
