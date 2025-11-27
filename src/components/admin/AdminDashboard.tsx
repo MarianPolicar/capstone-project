@@ -87,7 +87,7 @@ function AdminDashboard({ user, bookings, users, onLogout }: AdminDashboardProps
       <div className="p-8">
         <div className="mb-8">
           <h1 className="text-slate-900 mb-2">Dashboard Overview</h1>
-          <p className="text-slate-600">Welcome back, {user.name}</p>
+          <p className="text-slate-600">Welcome Back, {user.name}</p>
         </div>
 
         {/* Stats Grid */}
