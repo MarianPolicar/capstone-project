@@ -44,7 +44,7 @@ export default function CancelConfirmDialog({ booking, open, onClose, onConfirm 
         </div>
 
         <AlertDialogFooter>
-          <AlertDialogCancel className="rounded-lg">Keep Booking</AlertDialogCancel>
+          <AlertDialogCancel className="rounded-lg">Keeps Booking</AlertDialogCancel>
           <AlertDialogAction 
             onClick={onConfirm}
             className="rounded-lg bg-red-600 hover:bg-red-700"
