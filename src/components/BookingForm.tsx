@@ -87,7 +87,7 @@ export default function BookingForm({ user, onLogout, onAddBooking }: BookingFor
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="mb-8">
           <h1 className="text-slate-900 mb-2">Create New Booking</h1>
-          <p className="text-slate-600">Schedule your appointment</p>
+          <p className="text-slate-600">Schedule your appointments</p>
         </div>
 
         <Card className="p-8 shadow-lg">
