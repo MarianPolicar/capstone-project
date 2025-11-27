@@ -35,7 +35,7 @@ export default function BookingCard({ booking, onCancel, onReschedule, onViewQRC
   return (
     <Card className="p-6 shadow-sm hover:shadow-lg transition-all duration-200">
       <div className="flex items-start justify-between mb-4">
-        <h3 className="text-slate-900">{booking.service}</h3>
+        <h3 className="text-slate-900">{bookings.service}</h3>
         <Badge className={statusColors[booking.status]}>
           {booking.status}
         </Badge>
