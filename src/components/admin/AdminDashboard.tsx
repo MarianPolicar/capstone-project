@@ -155,7 +155,7 @@ function AdminDashboard({ user, bookings, users, onLogout }: AdminDashboardProps
 
         {/* Service Popularity Chart */}
         <Card className="p-6 shadow-sm">
-          <h3 className="text-slate-900 mb-4">Bookings by Service</h3>
+          <h3 className="text-slate-900 mb-4">Bookings by Services</h3>
           <ResponsiveContainer width="100%" height={300}>
             <BarChart data={serviceData}>
               <CartesianGrid strokeDasharray="3 3" stroke="#e2e8f0" />
