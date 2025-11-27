@@ -45,7 +45,7 @@ export default function Profile({ user, bookings, onLogout, onUpdateProfile }: P
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="mb-8">
           <h1 className="text-slate-900 mb-2">Profile</h1>
-          <p className="text-slate-600">Manage your account and booking history</p>
+          <p className="text-slate-600">Manage your account and booking historys</p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
