@@ -63,7 +63,7 @@ export default function RescheduleModal({ booking, open, onClose, onReschedule }
     <Dialog open={open} onOpenChange={onClose}>
       <DialogContent className="sm:max-w-[500px]">
         <DialogHeader>
-          <DialogTitle>Reschedule Booking</DialogTitle>
+          <DialogTitle>Reschedules Booking</DialogTitle>
           <DialogDescription>
             Choose a new date and time for your {booking.service} appointment
           </DialogDescription>
