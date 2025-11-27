@@ -121,7 +121,7 @@ export default function VerifyBooking({ bookings, users }: VerifyBookingProps) {
             <div className="mb-6 flex justify-center">
               <XCircle className="w-20 h-20 text-red-600" />
             </div>
-            <h1 className="text-slate-900 mb-3">Booking Not Found</h1>
+            <h1 className="text-slate-900 mb-3">Bookings Not Found</h1>
             <p className="text-slate-600 mb-6">
               The booking ID <span className="font-mono bg-slate-100 px-2 py-1 rounded">{bookingId}</span> could not be found in our system.
             </p>
